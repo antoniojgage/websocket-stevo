@@ -1,0 +1,211 @@
+html {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+/*label {
+	background-color:#d0451b;
+	-moz-border-radius:28px;
+}*/
+#getContacts {
+	margin-top: 30px;
+}
+/*#top{
+	background: #d0451b;
+	z-index: 1000;
+}
+*/
+body {
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],  textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+/*.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}*/
+
+.tbod {
+    margin-left:auto; 
+    margin-right:auto;
+  	position: center;
+  }
+
+#addBtn {
+	background-color:#d0451b;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#addBtn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+#addBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.update-button {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.update-button:hover {
+	background-color:#5cbf2a;
+}
+.update-button:active {
+	position:relative;
+	top:1px;
+}
+
+.delete-button {
+	background-color:#d0451b;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.delete-button:hover {
+	background-color:#bc3315;
+}
+.delete-button:active {
+	position:relative;
+	top:1px;
+}
+
+.delete-button {
+	background-color:#d0451b;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.delete-button:hover {
+	background-color:#bc3315;
+}
+.delete-button:active {
+	position:relative;
+	top:1px;
+}
+
+#getContacts {
+	background-color:#ffc477;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+	
+}
+#getContacts:hover {
+	background-color:#fb9e25;
+}
+#getContacts:active {
+	position:relative;
+	top:1px;
+}
+#hideContacts {
+	background-color:#ffc477;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+	
+}
+#hideContacts:hover {
+	background-color:#fb9e25;
+}
+#hideContacts:active {
+	position:relative;
+	top:1px;
+}

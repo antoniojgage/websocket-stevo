@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact List!</title>
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div id="Top">
+			<h1>CREATE A LIST OF CONTACTS</h1>
+	
+		</div>
+		<br><br>
+		<form id="addContact">
+			<div class="form-group">
+				<label for="exampleInputEmail1"><strong>ENTER FIRST NAME</strong></label>
+	    		<input type="text" class="form-control" id="InputName1" placeholder="Enter First Name">
+			</div>	
+			<div class="form-group">
+				<label for="exampleInputEmail1"><strong>ENTER LAST NAME</strong></label>
+	    		<input type="text" class="form-control" id="InputName2" placeholder="Enter Last Name">
+			</div>		
+			<div class="form-group">
+				<label for="exampleInputEmail1"><strong>ENTER EMAIL</strong></label>
+	    		<input type="text" class="form-control" id="InputEmail" placeholder="Enter Email" />
+			</div>
+			<br>
+			<button id="addBtn" class="btn btn-danger">Add Contact</button>
+		</form>
+
+		<hr>
+		<button class="btn btn-danger" id="getContacts">View Contacts!</button>
+		<hr>
+		<table class="tbod">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>				
+				</tr>
+			</thead>
+			<tbody class="tbod"></tbody>
+		</table>
+	</div>
+	<button id="hideContacts">Hide Contacts!</button>
+
+	<script src="jquery.js"></script>
+    <script src="index-java.js"></script>
+</body>
+</html>
